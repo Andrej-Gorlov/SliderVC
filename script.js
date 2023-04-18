@@ -3,7 +3,7 @@ function lerp({ x, y }, { x: targetX, y: targetY }) {
   x += (targetX - x) * fraction;
   y += (targetY - y) * fraction;
   return { x, y };
-}
+} 
 class Slider {
   constructor(el) {
     const imgClass = (this.IMG_CLASS = "slider__images-item");
